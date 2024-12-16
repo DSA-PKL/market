@@ -128,3 +128,27 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Maven
+/target/
+*.jar
+*.war
+*.ear
+
+# Gradle
+/build/
+.gradle/
+
+# IDE 설정
+*.iml
+.idea/
+*.class
+*.log
+*.tmp
+*.swp
+*.bak
+*.db
+
+# OS 파일
+.DS_Store
+Thumbs.db
